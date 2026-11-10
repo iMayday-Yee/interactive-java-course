@@ -1,0 +1,64 @@
+:root {
+  /* canvas & ink */
+  --bg: #f6f8fb;
+  --surface: #ffffff;
+  --ink: #15202b;
+  --ink-soft: #334155;
+  --muted: #5c6b7d;
+  --faint: #607286;
+  --line: #dee5ee;
+  --line-strong: #c4cfdc;
+
+  /* daylight signals: cobalt / emerald / amber */
+  --primary: #2563eb;
+  --primary-strong: #1d4ed8;
+  --primary-soft: #e8f0ff;
+  --green: #0a7a57;
+  --green-strong: #076a4b;
+  --green-soft: #e4f5ee;
+  --amber: #d97706;
+  --amber-strong: #9a4a05;
+  --amber-soft: #fef3e2;
+
+  /* semantic */
+  --warn: #d97706;
+  --warn-soft: #fef3e2;
+  --danger: #c0392b;
+  --danger-soft: #fdecea;
+  --success: #0a7a57;
+  --success-soft: #e4f5ee;
+
+  /* code */
+  --code-bg: #eff4fd;
+  --code-surface: #eff4fd;
+  --code-ink: #1f2a37;
+  --code-muted: #5c6e82;
+  --code-line: #d4e1f4;
+
+  /* 章节光谱：与 src/lib/chapterColors.ts 的 15 个 accent 保持一致 */
+  --rainbow: linear-gradient(90deg, #AE4829 0.0%, #A57727 7.1%, #898C21 14.3%, #669924 21.4%, #399D25 28.6%, #259D41 35.7%, #259D71 42.9%, #25999D 50.0%, #276EA5 57.1%, #273CA5 64.3%, #4427A5 71.4%, #7727A5 78.6%, #A527A1 85.7%, #A5276E 92.9%, #A5273C 100%);
+
+  /* washes */
+  --panel: #eef3fa;
+  --panel-head: #e6eef9;
+  --panel-border: #cfdcec;
+  --panel-foot: #f7fafe;
+  --line-note-bg: #ffffff;
+
+  --font-body: 'IBM Plex Sans', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-display: 'IBM Plex Serif', 'Noto Serif SC', 'Songti SC', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+
+  --fs-body: 18px;
+  --fs-small: 15px;
+  --fs-tiny: 13px;
+  --fs-code: 15px;
+  --fs-h1: 56px;
+  --fs-h2: 32px;
+  --fs-h3: 24px;
+  --fs-h4: 19px;
+  --lh-body: 1.72;
+  --maxw: 1120px;
+  --reading: 1064px;
+  --radius: 8px;
+}
